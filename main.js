@@ -1,3 +1,12 @@
+// Nav-links Section
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    // Toggle menu when hamburger is clicked
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+
 // Gallery Section
 let images = [
     "Images/laptop 1.jpg",
