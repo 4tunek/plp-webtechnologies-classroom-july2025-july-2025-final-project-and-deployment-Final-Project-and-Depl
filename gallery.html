@@ -1,7 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+</head>
+<body>
+    <!-- Header section -->
+<header>   
+    <nav>
+    <div class="logo">PulseTech</div>
+    <ul class="nav-links">
+        <li class="close-btn">&times;</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+    </ul>
 
+    <div class="hamburger">
+        &#9776;
+    </div>
+    </nav>
+</header>
+
+    <!-- Gallery Section -->
     <section id="gallery" class="gallery-section">
-      <h2>Gallery</h2>
-      <div id="gallery-carousel">
-            <img id="gallery-Image" src="" alt="gadgets"/><br />
+        <h2>Gallery</h2>
+        <div id="gallery-carousel">
+        <img id="gallery-Image" src="" alt="gadgets"/><br />
         </div>
     </section>
+
+
+
+    <!-- Contact Us Section -->
+        <section id="contactus" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <span id="nameError" class="error"></span>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <span id="emailError" class="error"></span>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" rows="10" cols="50" placeholder="Your message here..."></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    </section>
+    </main>
+
+
+    <!-- Footer Section -->
+    <footer>
+    <p>&copy; 2023 PulseTech. All rights reserved.</p>
+    <div class="icons">
+    <i class="fab fa-facebook-f"></i> 
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-youtube"></i>
+    </div>
+    </footer>
+</body>
+</html>
