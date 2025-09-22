@@ -73,5 +73,5 @@ The goal is to:
 
 ---
 
-## 📂 Project Structure
+
 
